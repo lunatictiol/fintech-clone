@@ -44,7 +44,8 @@
     "react-native-web": "~0.19.10",
     "zeego": "^2.0.3",
     "zustand": "^5.0.0",
-    "react-native-mmkv": "2.12.1"
+    "react-native-mmkv": "2.12.1",
+    "expo-blur": "~13.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

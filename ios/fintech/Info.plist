@@ -10,6 +10,30 @@
     <string>fintech</string>
     <key>CFBundleExecutable</key>
     <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict/>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon</string>
+        </array>
+      </dict>
+    </dict>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict/>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon</string>
+        </array>
+      </dict>
+    </dict>
     <key>CFBundleIdentifier</key>
     <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
     <key>CFBundleInfoDictionaryVersion</key>
@@ -49,18 +73,16 @@
       <key>NSAllowsLocalNetworking</key>
       <true/>
     </dict>
+    <key>NSCameraUsageDescription</key>
+    <string>Allow $(PRODUCT_NAME) to access your camera</string>
     <key>NSFaceIDUsageDescription</key>
-    <string>Allow $(PRODUCT_NAME) to access your Face ID biometric data.</string>
+    <string>Allow $(PRODUCT_NAME) to use Face ID</string>
     <key>NSMicrophoneUsageDescription</key>
     <string>Allow $(PRODUCT_NAME) to access your microphone</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>The app accesses your photos to let you share them with your friends.</string>
     <key>NSUserActivityTypes</key>
     <array>
-      <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
-      <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
-      <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
-      <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
-      <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
-      <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
       <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
     </array>
     <key>UILaunchStoryboardName</key>

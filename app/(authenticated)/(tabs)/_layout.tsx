@@ -6,6 +6,7 @@ import { FontAwesome } from '@expo/vector-icons'
 import CustomHeader from '@/components/CustomHeader'
 import { BlurView } from 'expo-blur'
 
+
 const Layout = () => {
   return (
     <Tabs

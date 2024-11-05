@@ -20,4 +20,9 @@ A FinTech Clone mobile application built with React Native, simulating core func
 - **Zustand**: Lightweight state management for efficient and reactive data handling.
 - **Tanstack Query**: Simplifies server-state management with caching and background sync.
 - **Clerk**: For authentication, allowing secure and streamlined user login with FaceID.
-
+![](/image0.png)
+![](/image1.png)
+![](/image2.png)
+![](/image3.png)
+![](/imag4.png)
+![](/imag5.png)
